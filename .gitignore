@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+tests/__pycache__/
+
+# SQLite database (if using the default Airflow DB)
+*.db
+*.db-journal
+
+# Secrets
+*.key
+*.pem
+*.crt
+
+# Jupyter notebooks checkpoints (if using notebooks for testing)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+*.swo
+*.orig
+
+# VSCode
+.vscode/
+
